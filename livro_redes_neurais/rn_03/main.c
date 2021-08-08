@@ -23,11 +23,11 @@
 #define saida 1
 #define exemplos 10
 
-main() {
+void main() {
     float w[saida][ncesc], W[ncesc][entrada], errodes, Erroinst, Erromg = 0, erro[saida], niesc[ncesc], ni[saida], biasesc[ncesc], biass[saida], eta, phiesc[ncesc], phi[saida], philesc[ncesc], phil[saida], delta[saida], deltaesc[ncesc];
     int x, y, cont2, contt, epocas;
     float entradas[entrada][exemplos], saidas[saida][exemplos];
-    systen("cls");
+    system("cls;clear;");
     printf("bias e pesos iniciais...\n");
     for (y = 0; y < ncesc; y++) {
         for (x = 0; x < saida; x++)
@@ -70,7 +70,7 @@ main() {
     //}
 
 
-    systen("cls");
+    system("cls;clear;");
 
     printf("Pesos iniciais:\n");
     for (y = 0; y < ncesc; y++) {
