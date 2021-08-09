@@ -4,7 +4,7 @@
 
 Rede neural perceptron não resolve problema XOR.
 
-*XOR*: $ \iff (A \lor b) \land \neg(A \land B) $
+*XOR*: $ \iff (A \lor B) \land \neg(A \land B) $
 
 A|B|S 
 -|-|-
