@@ -6,7 +6,7 @@
 
 Rede neural perceptron não resolve problema XOR.
 
-<img src="https://latex.codecogs.com/gif.latex?XOR \iff (A \lor B) \land \neg(A \land B)"/> 
+<img src="https://latex.codecogs.com/gif.latex?%20XOR%20\iff%20(A%20\lor%20B)%20\land%20\neg(A%20\land%20B)"/> 
 
 *XOR* Table: 
 
