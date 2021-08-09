@@ -1,6 +1,8 @@
 ## Capítulo 1 - Introdução:
+
 <hr>
-###Anotações:
+
+### Anotações:
 
 Rede neural perceptron não resolve problema XOR.
 
@@ -14,7 +16,9 @@ A|B|S
 1|1|0
 
 <hr>
-###Questões do capítulo.
+
+### Questões do capítulo.
+
 #### Questão 1?
 
 ***Resposta:***
