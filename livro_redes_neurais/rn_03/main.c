@@ -175,7 +175,7 @@ void main() {
             printf("%f ", phi[contt]);
         }
     }
-    printf("\nErro médio global: %f", Erromg);
+    printf("\nErro médio global: %f\n", Erromg);
     getchar();
 }
 
