@@ -2,7 +2,9 @@
  * File:   main.c
  * Author: echoes
  * Teste Rede Neural Artificial Percepton Simples
+ * Livro Pag 42-43
  * Created on 21 de Novembro de 2013, 00:49
+ * Update on 2021/0815
  */
 
 #include <stdio.h>
@@ -20,11 +22,31 @@
 int main(int argc, char** argv) {
     
     float w[entrada][saida], // Pesos Wij
-            erro, // Valor esperado para o erro
-            err[saida], // Erro na saída da RNA
+            err, // Valor esperado para o erro
+            erro[saida], // Erro na saída da RNA
             ni[saida],// ??
             errom,bias, eta, entradas[in][saida], saidas[in][saida],
             phi[saida];
+
+    int x, cont, contt, contin = 0, epocas, testeerro = 0; funcao;
+    char continua = 's';
+
+    for (x=0; x < entrada; x++)
+        for(cont = 0; cont < saida; cont++)
+            w[x][cont] = 0;
+    
+    system('clear');
+    printf("Entre com o valor do bias: ");
+    scanf("%f",&bias);
+    printf("Entre com o valor da taxa de aprendizagem: ");
+    scanf("%f", &eta);
+    printf("Entre com o número de iterações: ");
+    scanf("%d",&epocas);
+    printf("Entre com a função desejada [(1) Degrau, (2) Sigmoide]");
+    scanf("%d",&funcao);
+    
+
+    
             
     
     
