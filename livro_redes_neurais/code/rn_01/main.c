@@ -44,6 +44,39 @@ int main(int argc, char** argv) {
     scanf("%d",&epocas);
     printf("Entre com a função desejada [(1) Degrau, (2) Sigmoide]");
     scanf("%d",&funcao);
+
+    printf("Entre com os dados de entrada e de saída para o treinamento:\n");
+
+    for ( x = 0; x < in; x++)
+        for ( cont = 0; cont < saida; cont++)
+        {
+            printf("Entrada %d, Neuronio %d: ",x+1,cont+1);
+            scanf("%f",&entradas[x][cont]);
+        }
+    
+    for ( x = 0; x  < in; x++)
+        for ( cont = 0; cont < saida; cont++)
+        {
+            printf("Saida %d, Neuronio %d: ",x+1,cont+1);
+            scanf("%f",&saidas[x][cont]);
+        }
+
+    printf("Todos os pesos iniciais são zero.\n");
+    printf("Iniciando processo iterativo...\n");
+
+    cont = 0;
+
+    while ((cont < epocas) && !testeerro && (continua != 'n'))
+    {
+        system('clear');
+        cont++;
+        /**
+         * TODO: continuar pag. 43
+         * */
+    }
+    
+    
+    
     
 
     
