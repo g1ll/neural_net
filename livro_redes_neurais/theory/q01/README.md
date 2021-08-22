@@ -48,3 +48,7 @@ Segundo a psicologia, aprendizado é o fato de uma pessoa mudar de comportamento
 ***Resposta***
 
 Redes neuras possuem as vantagens de generalização, adaptação a universos não-estacionários, e tolerância a falhas. A generalização é a capacidade da rede responder a entradas que não estavam nos dados de treinamento, diferente de algoritmos convencionais que respondem apenas para os dados aos quais foram projetados. Uma rede neural também pode ser projetada para adaptar-se, ou seja, ajustar seus pesos sinápticos de acordo com as mudanças nas estatísticas com o tempo. A outra vantagem estaria na natureza distributiva de processamento, uma rede física, por exemplo, não pararia de funcionar caso um neurônio apresentasse defeito, a rede continuaria a gerar uma resposta global. Neste caso, existiria apenas uma perda da qualidade, sendo, portanto, tolerante a falhas. A principal desvantagem de uma rede neural é a "caixa preta" que o modelo representa, pois não é possível gerar uma prova formal para os resultados obtidos, nem estabelecer relação entre um peso sináptico com uma determinada resposta da rede ou significado físico.
+
+#### 1.6 O que é o problema XOR?
+
+O problema XOR é um problema simples representado pela operação lógica OU Exclusivo. Nesta operação, dadas duas entradas, a resposta será verdadeira apenas se uma das entradas forem verdadeiras. Os pesquisadores Minsky e Seymour provaram que o percepton de uma camada, criado pelo cientista Frank Rosenblatt, não é capaz de resolver o problema simples do XOR.
