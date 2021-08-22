@@ -38,3 +38,8 @@ Uma máquina inteligente deve ter a capacidade de aprender a partir de dados de 
 ***Resposta***
 
 Um sistema inteligente consiste em três sitemas fundamentais: Representação do conhecimento, Racioncínio e Aprendizagem. O conhecimento poder ser representado de duas formas: Declaratica e Procedimental. A forma declarativa compreende uma coleção de fatos e relações entre estes fatos, assim como, um motor de inferência sobre estes fatos. O Racionínio está ligado a resolução de problemas, que na maioria das vezes representa uma busca por soluções viáveis, como um problema de otimização. Ou seja, a pesquisa em um espaço de busca de estados possíveis da melhor solução. O Aprendizado é a característica da máquina intelitente aprender com situações passadas, de modo a não repitilas, caso estas sejam inadeguadas, ou repitilas quando adequadas à solução do problema.
+
+#### 1.4 O que é aprendizado?
+***Resposta***
+
+Segundo a psicologia, aprendizado é o fato de uma pessoa mudar de comportamento diante de uma situação para evitar um resultado não indesejado, sendo essa mudança relacionada à uma tendência inata, reposta temporária ou maturação (Hilgard, 1975). 
