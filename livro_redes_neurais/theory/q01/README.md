@@ -42,4 +42,4 @@ Um sistema inteligente consiste em três sitemas fundamentais: Representação d
 #### 1.4 O que é aprendizado?
 ***Resposta***
 
-Segundo a psicologia, aprendizado é o fato de uma pessoa mudar de comportamento diante de uma situação para evitar um resultado não indesejado, sendo essa mudança relacionada à uma tendência inata, reposta temporária ou maturação (Hilgard, 1975). 
+Segundo a psicologia, aprendizado é o fato de uma pessoa mudar de comportamento diante de uma situação para evitar um resultado não indesejado, sendo essa mudança relacionada à uma tendência inata, reposta temporária ou maturação (Hilgard, 1975). No entanto, para uma máquina aprender são necessárias habilidades como a capacidade de generalizar, de induzir, de fazer analogias e de receber instruções.
