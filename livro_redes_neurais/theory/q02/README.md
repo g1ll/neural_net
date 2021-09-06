@@ -12,14 +12,18 @@ Saída da rede:
 <img src="https://latex.codecogs.com/svg.image?y_{j}&space;=&space;\phi(v_{j})&plus;b_{j}" title="y_{j}&space;=&space;\phi(v_{j})+b_{j}" />
 
 
-Função de transferência <img src="https://latex.codecogs.com/svg.image?\phi" title="\phi" />:
+##### Funções de transferência <img src="https://latex.codecogs.com/svg.image?\phi" title="\phi" />:
 
 1- Função sigmóide:
 <img src="https://latex.codecogs.com/svg.image?\phi(v)&space;=&space;\frac{1}{1&plus;e^{-v}}" title="\phi(v) = \frac{1}{1+e^{-v}}" />
 
-2-
+2- Função gaussiana:
 
-3-
+<img src="https://latex.codecogs.com/svg.image?\phi(v)&space;=&space;e^{-v{2}}" title="\phi(v) = e^{-v{2}}" />
+
+3- Função tangente hiperbólica:
+
+
 
 ### Questões do Capítulo 2, pag. 18.
 
