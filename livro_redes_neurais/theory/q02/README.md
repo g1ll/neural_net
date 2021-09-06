@@ -41,3 +41,8 @@ A diferença é que o aprendizado supervisionado compara a saída da rede com um
 
 ***Resposta:***
 A retroalimentação é quando a saída de um neurônio se liga com um neurônio da camasda anterior ou da sua mesma camada. Essa arquitetura é chamada de feedback e tem um impacto relevante no aprendizado da Rede Neural.
+
+#### 2.4 Qual o pricípio de funcionamento dos neurônios, de acordo com Hebb?
+
+***Resposta:***
+O princípio de funcionamento de Hebb diz que "Quando um axiônio da célula A está perto o suficiente para excitar uma célula B e participa do seu disparo repetidamente, então algum processo de crescimento ou modificação metabólica acontece em uma das células ou em ambas, de tal forma que a eficiência de A como uma das células que dispara B é aumentada".
