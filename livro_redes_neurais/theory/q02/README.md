@@ -19,11 +19,11 @@ Saída da rede:
 
 2- Função gaussiana:
 
-<img src="https://latex.codecogs.com/svg.image?\phi(v)&space;=&space;e^{-v{2}}" title="\phi(v) = e^{-v{2}}" />
+<img src="https://latex.codecogs.com/svg.image?\phi(v)&space;=&space;e^{-v^{2}}" title="\phi(v) = e^{-v{2}}" />
 
 3- Função tangente hiperbólica:
 
-
+<img src="https://latex.codecogs.com/svg.image?\phi(v)&space;=&space;tanh(v)" title="\phi(v) = tanh(v)" />
 
 ### Questões do Capítulo 2, pag. 18.
 
@@ -31,3 +31,8 @@ Saída da rede:
 
 ***Resposta:***
 A principal diferença está na corrente, um neurônio matemático pode ser simulado através de eletrons en um neurocomputador ou software da rede neural executado geralmente por uma varredura na rede ou usando paralelismo, enquanto que o nurônio biológico utiliza uma rede de ions de sódio e potássio. Os pesos e as ligações entre os neuronios de uma rede neural artificial simbolizam os axionios e os dentritos. No entanto, existem similaridades, pois o neurônio matemático tenta simular as funções do neurônio natural.
+
+#### 2.2 Qual diferença entre o aprendizado supervisionado e o não-supervisioado?
+
+***Resposta:***
+A diferença é que o aprendizado supervisionado compara a saída da rede com um valor esperado, e desta forma, corrige os pesos sinápticos para minimizar o erro, como se houvesse um professor. Por outro lado, a rede não-supervisionada não posssui um valor esperado e aprende com a experiência durante o treinamento. Este é o caso característico de redes de classificação onde há uma procura por padrões nos dados.
