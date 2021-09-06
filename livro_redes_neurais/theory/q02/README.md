@@ -5,7 +5,12 @@
 ### Anotações:
 Representação matemática de um neurônio:
 
-<img src="https://latex.codecogs.com/svg.image?v&space;=&space;\sum_{n}^{i=0}w_{i}x_{i}" title="v = \sum_{n}^{i=0}w_{i}x_{i}" />
+<img src="https://latex.codecogs.com/svg.image?v&space;=&space;\sum_{i=0}^{n}w_{i}x_{i}" title="v = \sum_{i=0}^{n}w_{i}x_{i}" />
+
+Saída da rede:
+
+<img src="https://latex.codecogs.com/svg.image?y_{j}&space;=&space;\phi(v_{j})&plus;b_{j}" title="y_{j}&space;=&space;\phi(v_{j})+b_{j}" />
+
 
 ### Questões do Capítulo 2, pag. 18.
 
