@@ -36,3 +36,8 @@ A principal diferença está na corrente, um neurônio matemático pode ser simu
 
 ***Resposta:***
 A diferença é que o aprendizado supervisionado compara a saída da rede com um valor esperado, e desta forma, corrige os pesos sinápticos para minimizar o erro, como se houvesse um professor. Por outro lado, a rede não-supervisionada não posssui um valor esperado e aprende com a experiência durante o treinamento. Este é o caso característico de redes de classificação onde há uma procura por padrões nos dados.
+
+#### 2.3 O que é retroalimentação?
+
+***Resposta:***
+A retroalimentação é quando a saída de um neurônio se liga com um neurônio da camasda anterior ou da sua mesma camada. Essa arquitetura é chamada de feedback e tem um impacto relevante no aprendizado da Rede Neural.
