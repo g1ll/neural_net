@@ -46,3 +46,12 @@ A retroalimentação é quando a saída de um neurônio se liga com um neurônio
 
 ***Resposta:***
 O princípio de funcionamento de Hebb diz que "Quando um axiônio da célula A está perto o suficiente para excitar uma célula B e participa do seu disparo repetidamente, então algum processo de crescimento ou modificação metabólica acontece em uma das células ou em ambas, de tal forma que a eficiência de A como uma das células que dispara B é aumentada".
+
+#### 2.5 Qual os algoritmos aplicados ao treinamento das redes neurais?
+
+***Resposta:***
+Existem diversos algoritmos de aprendizagem para ajustar os pesos sinápticos e os valores dos ***bias***. Alguns dests algoritmos de aprendizagem utilizados são:
+ 1- Aprendizagem por correção  de erros (regra delata);
+ 2 - Aprendizagem competitiva (regra de kohonen);
+ 3 - Aprendizagem baseda em memória;
+ 4 - Aprendizagem hebbiana;
