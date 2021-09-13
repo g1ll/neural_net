@@ -46,3 +46,17 @@ A retroalimentação é quando a saída de um neurônio se liga com um neurônio
 
 ***Resposta:***
 O princípio de funcionamento de Hebb diz que "Quando um axiônio da célula A está perto o suficiente para excitar uma célula B e participa do seu disparo repetidamente, então algum processo de crescimento ou modificação metabólica acontece em uma das células ou em ambas, de tal forma que a eficiência de A como uma das células que dispara B é aumentada".
+
+#### 2.5 Qual os algoritmos aplicados ao treinamento das redes neurais?
+
+***Resposta:***
+Existem diversos algoritmos de aprendizagem para ajustar os pesos sinápticos e os valores dos ***bias***. Alguns dests algoritmos de aprendizagem utilizados são:
+ 1- Aprendizagem por correção  de erros (regra delata);
+ 2 - Aprendizagem competitiva (regra de kohonen);
+ 3 - Aprendizagem baseda em memória;
+ 4 - Aprendizagem hebbiana;
+
+### 2.6 O que é, e para que serve um ***bias*** ?
+
+***Resposta:***
+Um bias é um parametro adicional somado aos pesos sinápticos de modo a trazer uma maior possibilidade de ajuste e adaptação do modelo neural ao problema de interesse. Outra contribuição relevante to parametro **bias*** é permitir que mesmo com entrdas nulas a saída do neurônio não seja nulo. Por exmplo, se usássemos a função de transferencia  da tangente hiperbólica para entradas nulas a ativação ***v*** seria nula também nula. Com o ***bias*** evitamos que x = [0 0]t seja nulo e podemos relacionar com y = 1, como no problema '~not~' da lógica.
