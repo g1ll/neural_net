@@ -28,3 +28,7 @@ A fase de configuração da rede neural é composta por três etapas. Sendo elas
 
 3 - Determinação do algoritmo de treinamento e função de transferência da rede.
 
+#### 3.4 Em que faze é verificado o desempenho da rede, procando que ela não decorou os dados?
+***Resposta:***
+
+É na fase de *Teste* que são apresentados novos dados a rede neural. Estes dados não foram utilizados na fase de treinamento e, desta forma, é possível determinar se a rede consegue generalizar e resolver o problema de interesse.
