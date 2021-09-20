@@ -32,3 +32,8 @@ A fase de configuração da rede neural é composta por três etapas. Sendo elas
 ***Resposta:***
 
 É na fase de *Teste* que são apresentados novos dados a rede neural. Estes dados não foram utilizados na fase de treinamento e, desta forma, é possível determinar se a rede consegue generalizar e resolver o problema de interesse.
+
+#### 3.5 Como se dá a integração de uma rede neural?
+***Resposta:***
+Para integrar a rede neural como solução de um problema ao qual ela foi treinada e validada, é necessário o desenvolvimento de um sistema que possua facilidades de utilização. Este sistema deverá possuir, por exmplo, uma interface para a coleta de dados e apresentação da saída da de rede como solução do problema. Este sistema pode ser desenvolvido em difersas linguagens de programação, um exemplo é o uso do [***python***](https://www.python.org/) ou [***C/C***++](https://gcc.gnu.org/). O software [***Matlab®***](http://www.mathworks.com) também é um exemplor de ambiante de desenvolvimento com ferramentas para o desenvolvimento de redes neurais.
+
