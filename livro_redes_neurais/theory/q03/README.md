@@ -37,3 +37,7 @@ A fase de configuração da rede neural é composta por três etapas. Sendo elas
 ***Resposta:***
 Para integrar a rede neural como solução de um problema ao qual ela foi treinada e validada, é necessário o desenvolvimento de um sistema que possua facilidades de utilização. Este sistema deverá possuir, por exmplo, uma interface para a coleta de dados e apresentação da saída da de rede como solução do problema. Este sistema pode ser desenvolvido em difersas linguagens de programação, um exemplo é o uso do [***python***](https://www.python.org/) ou [***C/C***++](https://gcc.gnu.org/). O software [***Matlab®***](http://www.mathworks.com) também é um exemplor de ambiante de desenvolvimento com ferramentas para o desenvolvimento de redes neurais.
 
+#### 3.6 Como se escolhe o algoritmo de aprendizagem de uma rede neural?
+***Resposta***
+O algoritmo de aprendizagem da rede é escolhido de forma empírica e depende do tipo de rede a ser treinada assim como o tipo de dados a serem ajustados.
+
