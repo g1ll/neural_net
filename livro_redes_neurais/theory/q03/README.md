@@ -39,5 +39,5 @@ Para integrar a rede neural como solução de um problema ao qual ela foi treina
 
 #### 3.6 Como se escolhe o algoritmo de aprendizagem de uma rede neural?
 ***Resposta***
-O algoritmo de aprendizagem da rede é escolhido de forma empírica e depende do tipo de rede a ser treinada assim como o tipo de dados a serem ajustados.
+O algoritmo de aprendizagem da rede é escolhido de forma empírica e depende do tipo de rede a ser treinada assim como o tipo de dados a serem analisados.
 
