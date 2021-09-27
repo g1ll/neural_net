@@ -60,3 +60,5 @@ Existem diversos algoritmos de aprendizagem para ajustar os pesos sinápticos e 
 
 ***Resposta:***
 Um bias é um parametro adicional somado aos pesos sinápticos de modo a trazer uma maior possibilidade de ajuste e adaptação do modelo neural ao problema de interesse. Outra contribuição relevante to parametro **bias*** é permitir que mesmo com entrdas nulas a saída do neurônio não seja nulo. Por exmplo, se usássemos a função de transferencia  da tangente hiperbólica para entradas nulas a ativação ***v*** seria nula também nula. Com o ***bias*** evitamos que x = [0 0]t seja nulo e podemos relacionar com y = 1, como no problema '~not~' da lógica.
+
+[<<](../q01/)...[>>](../q03/)
