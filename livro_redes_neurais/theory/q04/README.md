@@ -11,3 +11,5 @@ Função de transferência da rede perceptron:
  * Como a função degrau abaixo:
 <img src="https://latex.codecogs.com/svg.image?\varphi&space;(v)=&space;\left\{\begin{matrix}1,\forall&space;v&space;\geq&space;0&space;\\&space;0,&space;\forall&space;v&space;\le&space;0\end{matrix}\right." title="\varphi (v)= \left\{\begin{matrix}1,\forall v \geq 0 \\ 0, \forall v \le 0\end{matrix}\right." /> 
 
+Exemplo perceptrom simples:
+<img src="https://matlabgeeks.com/wp-content/uploads/2011/05/Perceptron.bmp">
