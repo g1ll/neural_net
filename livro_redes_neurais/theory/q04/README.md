@@ -18,3 +18,5 @@ Exemplo perceptron simples:
 <hr>
 
 [<<](../q03/) ... <!--[>>](../q05/)-->
+
+
