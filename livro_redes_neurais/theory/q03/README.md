@@ -41,3 +41,5 @@ Para integrar a rede neural como solução de um problema ao qual ela foi treina
 ***Resposta***
 O algoritmo de aprendizagem da rede é escolhido de forma empírica e depende do tipo de rede a ser treinada assim como o tipo de dados a serem analisados.
 
+[<<](../q02/)...[>>](../q04/)
+

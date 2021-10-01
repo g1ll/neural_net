@@ -52,3 +52,5 @@ Redes neuras possuem as vantagens de generalização, adaptação a universos n�
 #### 1.6 O que é o problema XOR?
 
 O problema XOR é um problema simples representado pela operação lógica OU Exclusivo. Nesta operação, dadas duas entradas, a resposta será verdadeira apenas se uma das entradas forem verdadeiras. Os pesquisadores Minsky e Seymour provaram que o percepton de uma camada, criado pelo cientista Frank Rosenblatt, não é capaz de resolver o problema simples do XOR.
+
+[>>](../q02/)
