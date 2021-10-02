@@ -98,7 +98,7 @@ int main(int argc, char **argv)
         printf("Erro médio geral: %f\n", errom);
         for (x = 0; x < saida; x++)
             if (abs(errom) < err)
-                testerro = 1;
+                testeerro = 1;
             else
                 testeerro = 0;
         printf("Corrigindo pesos...\n");
@@ -118,7 +118,7 @@ int main(int argc, char **argv)
         if (contin > entrada)
             contin = 0;
     }
-    printf("Finalizado!\n")
+    printf("Finalizado!\n");
 }
 
 return (EXIT_SUCCESS);
