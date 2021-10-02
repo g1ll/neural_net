@@ -11,14 +11,14 @@
 #include <stdlib.h>
 #include <math.h>
 
-#define entrada 3
+#define entrada 2//3
 #define saida 2
-#define in 3//4 valor do livro
+#define in  = entrada*saida//4 valor do livro
 
 int main(int argc, char **argv)
 {
 
-    float w[entrada][saida], // Pesos Wij
+    float w[entrada+1][saida], // Pesos Wij + bias
         err,                 // Valor esperado para o erro
         erro[saida],         // Erro na saída da RNA
         ni[saida],           // ??
@@ -69,7 +69,7 @@ int main(int argc, char **argv)
         cont++;
         printf("\nIteração %d:\n", cont);
         for (x = 0; x < entrada - 1; x++)
-            printf("\nEntradas: %f", entradas[contin][x]);
+            printf("Entradas: %f\n", entradas[contin][x]);
         for (x = 0; x < saida; x++)
         {
             ni[x] = w[0][x] * bias;
