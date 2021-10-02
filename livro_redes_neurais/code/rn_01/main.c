@@ -65,7 +65,7 @@ int main(int argc, char **argv)
 
     while ((cont < epocas) && !testeerro && (continua != 'n'))
     {
-        system('clear');
+        system("clear");
         cont++;
         printf("Iteração %d:\n", cont);
         for (x = 0; x < entrada - 1; x++)
