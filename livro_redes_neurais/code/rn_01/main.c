@@ -13,7 +13,7 @@
 
 #define entrada 3
 #define saida 2
-#define in 4
+#define in 3//4 valor do livro
 
 int main(int argc, char **argv)
 {
@@ -65,11 +65,11 @@ int main(int argc, char **argv)
 
     while ((cont < epocas) && !testeerro && (continua != 'n'))
     {
-        system("clear");
+        //system("clear");
         cont++;
-        printf("Iteração %d:\n", cont);
+        printf("\nIteração %d:\n", cont);
         for (x = 0; x < entrada - 1; x++)
-            printf("Entradas: %f", entradas[contin][x]);
+            printf("\nEntradas: %f", entradas[contin][x]);
         for (x = 0; x < saida; x++)
         {
             ni[x] = w[0][x] * bias;
@@ -119,7 +119,5 @@ int main(int argc, char **argv)
             contin = 0;
     }
     printf("Finalizado!\n");
-}
-
-return (EXIT_SUCCESS);
+    return EXIT_SUCCESS;
 }
