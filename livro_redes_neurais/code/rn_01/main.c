@@ -25,8 +25,7 @@ int main(int argc, char **argv)
         errom, bias, eta, entradas[in][saida], saidas[in][saida],
         phi[saida];
 
-    int x, cont, contt, contin = 0, epocas, testeerro = 0;
-    funcao;
+    int x, cont, contt, contin = 0, epocas, testeerro = 0, funcao;
     char continua = 's';
 
     for (x = 0; x < entrada; x++)
