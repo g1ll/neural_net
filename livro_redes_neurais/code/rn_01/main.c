@@ -32,7 +32,7 @@ int main(int argc, char **argv)
         for (cont = 0; cont < saida; cont++)
             w[x][cont] = 0;
 
-    system('clear');
+    system("clear");
     printf("Entre com o valor do bias: ");
     scanf("%f", &bias);
     printf("Entre com o valor da taxa de aprendizagem: ");
