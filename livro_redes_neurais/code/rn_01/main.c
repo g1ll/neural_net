@@ -11,21 +11,20 @@
 #include <stdlib.h>
 #include <math.h>
 
-#define entrada 2//3
+#define entrada 3
 #define saida 2
-#define in  = entrada*saida//4 valor do livro
+#define in entrada
 
 int main(int argc, char **argv)
 {
-
+    int x, cont, contt, contin = 0, epocas, testeerro = 0, funcao;
+        //in  = (entrada+1)*saida; //numero de conexçoes entre entradas + bias e neuronios (saídas)
     float w[entrada+1][saida], // Pesos Wij + bias
         err,                 // Valor esperado para o erro
         erro[saida],         // Erro na saída da RNA
         ni[saida],           // ??
         errom, bias, eta, entradas[in][saida], saidas[in][saida],
         phi[saida];
-
-    int x, cont, contt, contin = 0, epocas, testeerro = 0, funcao;
     char continua = 's';
 
     for (x = 0; x < entrada; x++)
@@ -39,12 +38,12 @@ int main(int argc, char **argv)
     scanf("%f", &eta);
     printf("Entre com o número de iterações: ");
     scanf("%d", &epocas);
-    printf("Entre com a função desejada [(1) Degrau, (2) Sigmoide]");
+    printf("Entre com a função desejada [(1) Degrau, (2) Sigmoide]: ");
     scanf("%d", &funcao);
 
     printf("Entre com os dados de entrada e de saída para o treinamento:\n");
 
-    for (x = 0; x < in; x++)
+    for (x = 0; x < entrada; x++)
         for (cont = 0; cont < saida; cont++)
         {
             printf("Entrada %d, Neuronio %d: ", x + 1, cont + 1);
@@ -73,7 +72,7 @@ int main(int argc, char **argv)
         for (x = 0; x < saida; x++)
         {
             ni[x] = w[0][x] * bias;
-            for (cont = 0; cont < entrada - 1; cont++)
+            for (contt = 0; contt < entrada - 1; contt++)
                 ni[x] = ni[x] + w[cont + 1][x] + entradas[contin][contt];
             switch (funcao)
             {
@@ -110,10 +109,10 @@ int main(int argc, char **argv)
                     w[x][contt] = w[x][contt] + eta * erro[contt] * entradas[contin][x - 1];
         for (x = 0; x < entrada; x++)
             for (contt = 0; contt < saida; contt++)
-                printf("w[%d][%d] = %f\n", x, contt, w[x][contt]);
+                printf("w[%d][%d] = %.2f\n", x, contt, w[x][contt]);
 
         printf("Continua?");
-        scanf("%c", &continua);
+        scanf("\n%c", &continua);
         contin++;
         if (contin > entrada)
             contin = 0;
