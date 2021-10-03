@@ -38,6 +38,8 @@ int main(int argc, char **argv)
     scanf("%f", &eta);
     printf("Entre com o número de iterações: ");
     scanf("%d", &epocas);
+     printf("Entre com o valor do erro esperado: ");
+    scanf("%f", &err);
     printf("Entre com a função desejada [(1) Degrau, (2) Sigmoide]: ");
     scanf("%d", &funcao);
 
@@ -67,13 +69,14 @@ int main(int argc, char **argv)
         //system("clear");
         cont++;
         printf("\nIteração %d:\n", cont);
+        printf("\nContador Entradas: %d:\n", contin);
         for (x = 0; x < entrada - 1; x++)
             printf("Entradas: %f\n", entradas[contin][x]);
         for (x = 0; x < saida; x++)
         {
             ni[x] = w[0][x] * bias;
             for (contt = 0; contt < entrada - 1; contt++)
-                ni[x] = ni[x] + w[cont + 1][x] + entradas[contin][contt];
+                ni[x] = ni[x] + w[contt + 1][x] + entradas[contin][contt];
             switch (funcao)
             {
             case 1:
