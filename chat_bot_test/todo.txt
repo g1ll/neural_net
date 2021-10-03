@@ -1,0 +1,15 @@
+Teste de desenvolvimento de Chatbot
+Utilizando de todo o seu conhecimento com os processos de desenvolvimento de um Chatbot, realizar as etapas necessárias para a construção de um assistente que possa responder a perguntas de um fã de formula 1.
+Foque na qualidade e não na quantidade de informações que o BOT vai prover, o que será levado em consideração é a construção, treinamento e qualidade da escrita do candidato.
+Ao final da construção monte um roteiro de perguntas que o BOT consegue responder e envie juntamente com a skill Watson criada.
+Como forma de auxílio, podemos imaginar que o BOT poderia responder as seguintes questões:
+ Quais os maiores campões de formula 1
+ Quais as etapas tradicionais
+ Quem é o maior ganhador de títulos
+ Quando será disputada a etapa de São Paulo da Formula 1
+ Qual foi a primeira etapa disputada da história
+ Quem foi o ganhador da primeira etapa disputada
+ Qual o acidente mais trágico da história da Formula 1
+Dica: Podem existir respostas subjetivas, não se apegue a elas e sim em demonstrar suas habilidades de construção.
+
+https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=us-south&integrationID=d4d258e5-51e2-4201-a53c-6b2d5f04748f&serviceInstanceID=e72bc3c2-f62d-4b5d-a639-c814ca9952b8
