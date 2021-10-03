@@ -13,7 +13,7 @@
 
 #define entrada 3
 #define saida 2
-#define in entrada
+#define in 4
 
 int main(int argc, char **argv)
 {
@@ -117,7 +117,7 @@ int main(int argc, char **argv)
         printf("Continua?");
         scanf("\n%c", &continua);
         contin++;
-        if (contin > entrada)
+        if (contin > entrada-1)
             contin = 0;
     }
     printf("Finalizado!\n");
