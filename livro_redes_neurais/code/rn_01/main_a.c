@@ -1,11 +1,11 @@
-
 /* 
  * File:   main.c
  * Author: echoes
  * Teste Rede Neural Artificial Percepton Simples
  * Livro Pag 42-43
- * Created on 21 de Novembro de 2013, 00:49
- * Update on 2021/0815
+ * Created on 02 de Outubro de 2021, 15:19
+ * Alteração do exemplo original do livro para epocas automáticas
+ * até atingir o erro médio geral definido
  */
 
 #include <stdio.h>
@@ -21,7 +21,7 @@ int main(int argc, char **argv)
     float w[entrada][saida], err, erro[saida], ni[saida], errom,
         bias, eta, entradas[in][saida], saidas[in][saida],
         phi[saida];
-    int x, cont, contt, contin = 0, epocas, testeerro = 0, funcao;
+    int x, cont, contt, contin = 0, epocas=0, testeerro = 0, funcao;
     char continua = 's';
     for (x = 0; x < entrada; x++)
         for (cont = 0; cont < saida; cont++)
@@ -32,9 +32,7 @@ int main(int argc, char **argv)
     scanf("%f", &bias);
     printf("Entre com o valor da taxa de aprendizagem: ");
     scanf("%f", &eta);
-    printf("Entre com o número de iterações: ");
-    scanf("%d", &epocas);
-     printf("Entre com o valor do erro esperado: ");
+    printf("Entre com o valor do erro esperado: ");
     scanf("%f", &err);
     printf("Entre com a função desejada [(1) Degrau, (2) Sigmoide]: ");
     scanf("%d", &funcao);
@@ -56,7 +54,7 @@ int main(int argc, char **argv)
     printf("Todos os pesos iniciais são zero.\n");
     printf("Iniciando processo iterativo...\n");
     cont = 0;
-    while ((cont < epocas) && !testeerro && (continua != 'n'))
+    while (!testeerro)
     {
         //system("clear");
         cont++;
@@ -102,11 +100,11 @@ int main(int argc, char **argv)
             for (contt = 0; contt < saida; contt++)
                 printf("w[%d][%d] = %.2f\n", x, contt, w[x][contt]);
 
-        printf("Continua?");
-        scanf("\n%c", &continua);
         contin++;
         if (contin > entrada) contin = 0;
+        epocas++
     }
     printf("Finalizado!\n");
+    printf("Iterações: %d", epocas);
     return EXIT_SUCCESS;
 }
