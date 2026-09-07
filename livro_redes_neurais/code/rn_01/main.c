@@ -16,7 +16,7 @@
 #define saida 2
 #define in 4
 
-int main(int argc, char **argv)
+int main(void)
 {
     float w[entrada][saida], err, erro[saida], ni[saida], errom,
         bias, eta, entradas[in][saida], saidas[in][saida],
@@ -87,7 +87,7 @@ int main(int argc, char **argv)
             errom = errom + erro[x] / saida;
         printf("Erro médio geral: %f\n", errom);
         for (x = 0; x < saida; x++)
-            if (abs(errom) < err) testeerro = 1;
+            if (fabsf(errom) < err) testeerro = 1;
             else testeerro = 0;
        
         printf("Corrigindo pesos...\n");
